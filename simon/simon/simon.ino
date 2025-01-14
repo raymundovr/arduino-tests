@@ -62,7 +62,7 @@ void setup() {
   }
 }
 
-const byte MAX = 2;
+const byte MAX = 15;
 bool isPlaying = true;
 bool hasWon = true;
 byte sequence[MAX];

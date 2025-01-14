@@ -3,6 +3,7 @@
 
 use panic_halt as _;
 
+// Set right tty device on .env
 #[arduino_hal::entry]
 fn main() -> ! {
     let dp = arduino_hal::Peripherals::take().unwrap();
